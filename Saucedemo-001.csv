@@ -1,0 +1,355 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1748008138839,2060,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,1642,0,1333
+1748008138839,1643,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,1642,0,1333
+1748008140485,414,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,403,0,97
+1748008207358,392,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3993,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,258,0,225
+1748008207358,258,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,699,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,258,0,225
+1748008207618,132,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,130,0,100
+1748008208361,302,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3994,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,127,0,93
+1748008208361,128,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,701,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,127,0,93
+1748008208490,173,Launch-1,200,OK,Thread Group 1-2,text,true,,3293,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,173,0,90
+1748008209384,310,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3991,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,191,0,162
+1748008209384,191,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,698,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,191,0,162
+1748008209576,118,Launch-1,200,OK,Thread Group 1-3,text,true,,3293,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,117,0,82
+1748008210383,425,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,4002,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,224,0,126
+1748008210383,224,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,709,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,224,0,126
+1748008210609,199,Launch-1,200,OK,Thread Group 1-4,text,true,,3293,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,199,0,173
+1748008211370,298,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3989,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,128,0,90
+1748008211370,129,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,696,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,128,0,90
+1748008211501,167,Launch-1,200,OK,Thread Group 1-5,text,true,,3293,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,165,0,82
+1748008212383,376,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3990,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,145,0,82
+1748008212383,145,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,697,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,145,0,82
+1748008212531,228,Launch-1,200,OK,Thread Group 1-6,text,true,,3293,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,228,0,143
+1748008269268,232,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,133,0,111
+1748008269268,133,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,133,0,111
+1748008269402,98,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,97,0,60
+1748008269501,253,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,225,0,0
+1748008269501,225,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,225,0,0
+1748008269727,27,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,26,0,0
+1748008269755,44,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,22,0,0
+1748008269755,22,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,22,0,0
+1748008269777,22,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,22,0,0
+1748008269800,45,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,4004,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,21,0,0
+1748008269800,21,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,21,0,0
+1748008269822,23,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,22,0,0
+1748008269847,52,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3991,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,26,0,0
+1748008269847,26,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,26,0,0
+1748008269874,25,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008269901,59,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3992,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,20,0,0
+1748008269901,20,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,698,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,20,0,0
+1748008269921,39,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,39,0,0
+1748008270277,542,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,240,0,146
+1748008270277,240,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,240,0,146
+1748008270519,300,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,300,0,210
+1748008270822,99,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,50,0,0
+1748008270822,50,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,50,0,0
+1748008270873,48,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,48,0,0
+1748008270922,50,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,24,0,0
+1748008270922,24,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,24,0,0
+1748008270946,26,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,25,0,0
+1748008270975,151,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,4004,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,38,0,0
+1748008270975,38,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,38,0,0
+1748008271013,113,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,112,0,0
+1748008271127,53,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3991,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008271127,25,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008271153,27,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,27,0,0
+1748008271183,113,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3992,320,2,2,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,42,0,0
+1748008271183,42,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,698,158,2,2,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,42,0,0
+1748008271226,70,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,162,2,2,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,70,0,0
+1748008271278,268,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,152,0,76
+1748008271278,152,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,152,0,76
+1748008271433,113,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,113,0,74
+1748008271547,49,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,23,0,0
+1748008271547,23,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,23,0,0
+1748008271570,26,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,26,0,0
+1748008271597,54,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,25,0,0
+1748008271597,25,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,25,0,0
+1748008271622,29,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,29,0,0
+1748008271653,113,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,4004,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,84,0,0
+1748008271653,84,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,84,0,0
+1748008271737,29,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,28,0,0
+1748008271768,56,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3991,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008271768,26,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008271794,30,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,29,0,0
+1748008271827,55,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3992,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,26,0,0
+1748008271827,26,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,698,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,26,0,0
+1748008271854,28,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,28,0,0
+1748008272277,263,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,130,0,87
+1748008272277,130,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,130,0,87
+1748008272409,131,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,131,0,84
+1748008272549,56,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,27,0,0
+1748008272549,27,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,27,0,0
+1748008272576,29,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,29,0,0
+1748008272607,85,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,30,0,0
+1748008272607,30,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,30,0,0
+1748008272638,54,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,52,0,0
+1748008272698,91,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,4004,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,31,0,0
+1748008272698,31,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,31,0,0
+1748008272730,59,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,51,0,0
+1748008272791,64,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3991,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,36,0,0
+1748008272791,36,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,36,0,0
+1748008272828,27,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,27,0,0
+1748008272857,66,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3992,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,26,0,0
+1748008272857,26,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,698,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,26,0,0
+1748008272893,30,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,29,0,0
+1748008273278,206,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,83,0,60
+1748008273278,83,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,83,0,60
+1748008273363,121,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,118,0,51
+1748008273488,92,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,49,0,0
+1748008273488,49,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,49,0,0
+1748008273537,43,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,43,0,0
+1748008273586,123,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,96,0,0
+1748008273586,96,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,96,0,0
+1748008273682,27,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,27,0,0
+1748008273711,47,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,4005,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,23,0,0
+1748008273711,23,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,711,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,23,0,0
+1748008273734,24,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,23,0,0
+1748008273760,50,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3992,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008273760,25,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,698,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008273786,24,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,23,0,0
+1748008273812,50,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3993,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,24,0,0
+1748008273812,24,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,699,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,24,0,0
+1748008273837,25,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,25,0,0
+1748008274279,211,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,125,0,95
+1748008274279,125,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,125,0,95
+1748008274405,85,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,85,0,59
+1748008274493,69,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,37,0,0
+1748008274493,37,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,37,0,0
+1748008274531,31,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,31,0,0
+1748008274563,66,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,28,0,0
+1748008274563,28,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,28,0,0
+1748008274592,37,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,36,0,0
+1748008274634,75,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,4004,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,47,0,0
+1748008274634,48,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,47,0,0
+1748008274683,26,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,26,0,0
+1748008274713,91,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3991,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,41,0,0
+1748008274713,41,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,41,0,0
+1748008274754,50,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,50,0,0
+1748008274806,96,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3992,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,43,0,0
+1748008274806,43,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,698,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,43,0,0
+1748008274849,53,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,53,0,0
+1748008295076,211,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,112,0,84
+1748008295076,113,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,112,0,84
+1748008295189,98,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,97,0,49
+1748008295291,123,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008295291,59,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008295350,64,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,25,0,0
+1748008295418,201,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,74,0,0
+1748008295418,74,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,74,0,0
+1748008295493,126,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,123,0,0
+1748008295623,83,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,53,0,0
+1748008295623,54,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,53,0,0
+1748008295677,29,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,29,0,0
+1748008295710,126,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,71,0,0
+1748008295710,71,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,71,0,0
+1748008295781,55,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,54,0,0
+1748008295840,102,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,60,0,0
+1748008295840,60,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,60,0,0
+1748008295901,41,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,41,0,0
+1748008296079,375,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,184,0,118
+1748008296079,184,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,184,0,118
+1748008296264,190,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,190,0,127
+1748008296458,134,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008296458,63,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008296522,70,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,69,0,0
+1748008296597,136,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008296597,63,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008296660,73,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,72,0,0
+1748008296737,131,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008296737,59,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008296797,71,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,71,0,0
+1748008296872,135,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008296872,63,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008296936,71,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,70,0,0
+1748008297012,95,Launch,200,OK,Thread Group 1-2,text,false,Test failed: text expected to contain /200/,3995,324,2,2,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,60,0,0
+1748008297012,61,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,701,160,2,2,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,60,0,0
+1748008297073,34,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,2,2,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,34,0,0
+1748008297089,235,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,122,0,62
+1748008297089,122,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,122,0,62
+1748008297212,112,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,111,0,74
+1748008297328,56,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,23,0,0
+1748008297328,23,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,23,0,0
+1748008297352,32,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,31,0,0
+1748008297388,92,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008297388,59,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008297448,32,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,32,0,0
+1748008297485,133,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,57,0,0
+1748008297485,57,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,57,0,0
+1748008297543,75,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,74,0,0
+1748008297625,127,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,55,0,0
+1748008297625,55,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,55,0,0
+1748008297680,72,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,72,0,0
+1748008297758,135,Launch,200,OK,Thread Group 1-3,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008297758,59,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,59,0,0
+1748008297818,75,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,74,0,0
+1748008298083,428,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,217,0,150
+1748008298083,217,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,217,0,150
+1748008298301,210,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,209,0,142
+1748008298517,61,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,32,0,0
+1748008298517,32,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,32,0,0
+1748008298549,29,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,29,0,0
+1748008298580,126,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,26,0,0
+1748008298580,26,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,26,0,0
+1748008298607,99,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,95,0,0
+1748008298709,204,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,139,0,0
+1748008298709,139,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,139,0,0
+1748008298849,64,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008298918,134,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,60,0,0
+1748008298918,60,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,60,0,0
+1748008298978,74,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,74,0,0
+1748008299054,202,Launch,200,OK,Thread Group 1-4,text,false,Test failed: text expected to contain /200/,3995,324,2,2,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,65,0,0
+1748008299054,65,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,701,160,2,2,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,65,0,0
+1748008299119,137,Launch-1,200,OK,Thread Group 1-4,text,true,,3294,164,2,2,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,136,0,0
+1748008299080,511,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,244,0,189
+1748008299080,244,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,244,0,189
+1748008299327,264,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,264,0,147
+1748008299595,140,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,29,0,0
+1748008299595,30,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,29,0,0
+1748008299625,110,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,69,0,0
+1748008299739,60,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,26,0,0
+1748008299739,26,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,26,0,0
+1748008299765,34,Launch-1,200,OK,Thread Group 1-5,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,33,0,0
+1748008299801,111,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,24,0,0
+1748008299801,25,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,24,0,0
+1748008299826,86,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,85,0,0
+1748008299916,87,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,25,0,0
+1748008299916,25,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,25,0,0
+1748008299941,62,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,61,0,0
+1748008300006,133,Launch,200,OK,Thread Group 1-5,text,false,Test failed: text expected to contain /200/,3995,324,2,2,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,68,0,0
+1748008300006,68,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,2,2,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,68,0,0
+1748008300075,64,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,164,2,2,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,63,0,0
+1748008300083,329,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3997,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,172,0,125
+1748008300083,172,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,172,0,125
+1748008300257,155,Launch-1,200,OK,Thread Group 1-6,text,true,,3296,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,154,0,93
+1748008300419,94,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3997,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,21,0,0
+1748008300419,21,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,21,0,0
+1748008300440,73,Launch-1,200,OK,Thread Group 1-6,text,true,,3296,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,73,0,0
+1748008300515,111,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3997,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,19,0,0
+1748008300515,19,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,19,0,0
+1748008300534,92,Launch-1,200,OK,Thread Group 1-6,text,true,,3296,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,90,0,0
+1748008300628,75,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3997,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,43,0,0
+1748008300628,43,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,43,0,0
+1748008300675,28,Launch-1,200,OK,Thread Group 1-6,text,true,,3296,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,28,0,0
+1748008300705,83,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3997,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,22,0,0
+1748008300705,22,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,22,0,0
+1748008300727,61,Launch-1,200,OK,Thread Group 1-6,text,true,,3296,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,61,0,0
+1748008300790,42,Launch,200,OK,Thread Group 1-6,text,false,Test failed: text expected to contain /200/,3997,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,19,0,0
+1748008300790,19,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,19,0,0
+1748008300810,22,Launch-1,200,OK,Thread Group 1-6,text,true,,3296,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,22,0,0
+1748008320713,236,Launch,200,OK,Thread Group 1-1,text,false,Test failed: text expected to contain /200/,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,135,0,111
+1748008320713,135,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,135,0,111
+1748008320849,100,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,100,0,69
+1748008361089,458,Launch,200,OK,Thread Group 1-1,text,true,,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,250,0,152
+1748008361089,250,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,250,0,152
+1748008361341,206,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,206,0,145
+1748008378386,422,Launch,200,OK,Thread Group 1-1,text,true,,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,258,0,162
+1748008378386,258,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,258,0,162
+1748008378646,162,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,162,0,139
+1748008402549,294,Launch,200,OK,Thread Group 1-1,text,true,,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,205,0,179
+1748008402549,206,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,205,0,179
+1748008402757,86,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,85,0,59
+1748008402844,51,Launch,200,OK,Thread Group 1-1,text,true,,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,25,0,0
+1748008402844,25,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,25,0,0
+1748008402869,26,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,26,0,0
+1748008402896,147,Launch,200,OK,Thread Group 1-1,text,true,,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,76,0,0
+1748008402896,76,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,76,0,0
+1748008402973,70,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,44,0,0
+1748008403048,82,Launch,200,OK,Thread Group 1-1,text,true,,4004,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,41,0,0
+1748008403048,41,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,41,0,0
+1748008403090,40,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,35,0,0
+1748008403133,64,Launch,200,OK,Thread Group 1-1,text,true,,3991,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008403133,25,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008403169,28,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,28,0,0
+1748008403198,57,Launch,200,OK,Thread Group 1-1,text,true,,3992,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,28,0,0
+1748008403198,28,Launch-0,301,Moved Permanently,Thread Group 1-1,text,true,,698,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,28,0,0
+1748008403226,29,Launch-1,200,OK,Thread Group 1-1,text,true,,3294,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,29,0,0
+1748008403560,214,Launch,200,OK,Thread Group 1-2,text,true,,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,112,0,86
+1748008403560,112,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,112,0,86
+1748008403674,100,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,100,0,74
+1748008403775,62,Launch,200,OK,Thread Group 1-2,text,true,,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,33,0,0
+1748008403775,34,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,33,0,0
+1748008403809,28,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,27,0,0
+1748008403839,51,Launch,200,OK,Thread Group 1-2,text,true,,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,25,0,0
+1748008403839,25,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,25,0,0
+1748008403864,26,Launch-1,200,OK,Thread Group 1-2,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,26,0,0
+1748008403891,54,Launch,200,OK,Thread Group 1-2,text,true,,4006,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,25,0,0
+1748008403891,25,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,711,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,25,0,0
+1748008403916,29,Launch-1,200,OK,Thread Group 1-2,text,true,,3295,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,29,0,0
+1748008403947,52,Launch,200,OK,Thread Group 1-2,text,true,,3993,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008403947,25,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,698,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,25,0,0
+1748008403973,26,Launch-1,200,OK,Thread Group 1-2,text,true,,3295,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,26,0,0
+1748008404001,52,Launch,200,OK,Thread Group 1-2,text,true,,3994,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,25,0,0
+1748008404001,25,Launch-0,301,Moved Permanently,Thread Group 1-2,text,true,,699,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,25,0,0
+1748008404026,27,Launch-1,200,OK,Thread Group 1-2,text,true,,3295,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,27,0,0
+1748008404552,243,Launch,200,OK,Thread Group 1-3,text,true,,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,148,0,115
+1748008404552,148,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,148,0,115
+1748008404701,94,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,93,0,63
+1748008404796,95,Launch,200,OK,Thread Group 1-3,text,true,,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,69,0,0
+1748008404796,69,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,69,0,0
+1748008404865,26,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,26,0,0
+1748008404897,52,Launch,200,OK,Thread Group 1-3,text,true,,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,24,0,0
+1748008404897,24,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,24,0,0
+1748008404922,27,Launch-1,200,OK,Thread Group 1-3,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,23,0,0
+1748008404950,52,Launch,200,OK,Thread Group 1-3,text,true,,4006,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,25,0,0
+1748008404950,25,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,711,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,25,0,0
+1748008404975,27,Launch-1,200,OK,Thread Group 1-3,text,true,,3295,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,27,0,0
+1748008405004,59,Launch,200,OK,Thread Group 1-3,text,true,,3993,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,28,0,0
+1748008405004,28,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,698,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,28,0,0
+1748008405033,30,Launch-1,200,OK,Thread Group 1-3,text,true,,3295,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,27,0,0
+1748008405066,51,Launch,200,OK,Thread Group 1-3,text,true,,3994,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,26,0,0
+1748008405066,26,Launch-0,301,Moved Permanently,Thread Group 1-3,text,true,,699,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,26,0,0
+1748008405092,25,Launch-1,200,OK,Thread Group 1-3,text,true,,3295,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,25,0,0
+1748008405568,183,Launch,200,OK,Thread Group 1-4,text,true,,3996,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,107,0,85
+1748008405568,107,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,701,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,107,0,85
+1748008405676,75,Launch-1,200,OK,Thread Group 1-4,text,true,,3295,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,75,0,50
+1748008405753,65,Launch,200,OK,Thread Group 1-4,text,true,,3998,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,25,0,0
+1748008405753,25,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,703,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,25,0,0
+1748008405778,40,Launch-1,200,OK,Thread Group 1-4,text,true,,3295,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,40,0,0
+1748008405821,49,Launch,200,OK,Thread Group 1-4,text,true,,3995,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,22,0,0
+1748008405821,22,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,700,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,22,0,0
+1748008405844,26,Launch-1,200,OK,Thread Group 1-4,text,true,,3295,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,25,0,0
+1748008405871,63,Launch,200,OK,Thread Group 1-4,text,true,,4006,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,23,0,0
+1748008405871,23,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,711,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,23,0,0
+1748008405894,40,Launch-1,200,OK,Thread Group 1-4,text,true,,3295,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,24,0,0
+1748008405937,49,Launch,200,OK,Thread Group 1-4,text,true,,3993,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,24,0,0
+1748008405937,24,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,698,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,24,0,0
+1748008405961,25,Launch-1,200,OK,Thread Group 1-4,text,true,,3295,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,24,0,0
+1748008405986,545,Launch,200,OK,Thread Group 1-4,text,true,,3994,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,518,0,0
+1748008405986,518,Launch-0,301,Moved Permanently,Thread Group 1-4,text,true,,699,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,518,0,0
+1748008406504,27,Launch-1,200,OK,Thread Group 1-4,text,true,,3295,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,26,0,0
+1748008406559,193,Launch,200,OK,Thread Group 1-5,text,true,,3995,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,94,0,70
+1748008406559,94,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,94,0,70
+1748008406654,98,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,96,0,64
+1748008406753,62,Launch,200,OK,Thread Group 1-5,text,true,,3997,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,32,0,0
+1748008406753,32,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,32,0,0
+1748008406786,29,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,27,0,0
+1748008406817,64,Launch,200,OK,Thread Group 1-5,text,true,,3994,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,34,0,0
+1748008406817,34,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,34,0,0
+1748008406851,30,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,30,0,0
+1748008406882,60,Launch,200,OK,Thread Group 1-5,text,true,,4005,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,26,0,0
+1748008406882,26,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,26,0,0
+1748008406909,33,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,32,0,0
+1748008406943,78,Launch,200,OK,Thread Group 1-5,text,true,,3992,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,48,0,0
+1748008406943,48,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,48,0,0
+1748008406992,29,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,29,0,0
+1748008407022,63,Launch,200,OK,Thread Group 1-5,text,true,,3993,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,33,0,0
+1748008407022,33,Launch-0,301,Moved Permanently,Thread Group 1-5,text,true,,698,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,33,0,0
+1748008407055,30,Launch-1,200,OK,Thread Group 1-5,text,true,,3295,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,30,0,0
+1748008407550,214,Launch,200,OK,Thread Group 1-6,text,true,,3994,324,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,119,0,87
+1748008407550,119,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,700,160,1,1,https://saucedemo.com/?Username=standard_user&Password=secret_sauce,119,0,87
+1748008407670,94,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,164,1,1,https://www.saucedemo.com/?Username=standard_user&Password=secret_sauce,94,0,67
+1748008407766,61,Launch,200,OK,Thread Group 1-6,text,true,,3996,328,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,23,0,0
+1748008407766,23,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,702,162,1,1,https://saucedemo.com/?Username=locked_out_user&Password=secret_sauce,23,0,0
+1748008407790,37,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,166,1,1,https://www.saucedemo.com/?Username=locked_out_user&Password=secret_sauce,37,0,0
+1748008407829,64,Launch,200,OK,Thread Group 1-6,text,true,,3993,322,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,24,0,0
+1748008407829,24,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,699,159,1,1,https://saucedemo.com/?Username=problem_user&Password=secret_sauce,24,0,0
+1748008407853,40,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,163,1,1,https://www.saucedemo.com/?Username=problem_user&Password=secret_sauce,39,0,0
+1748008407895,54,Launch,200,OK,Thread Group 1-6,text,true,,4004,344,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,24,0,0
+1748008407895,25,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,710,170,1,1,https://saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,24,0,0
+1748008407920,29,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,174,1,1,https://www.saucedemo.com/?Username=performance_glitch_user&Password=secret_sauce,29,0,0
+1748008407951,53,Launch,200,OK,Thread Group 1-6,text,true,,3991,318,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,26,0,0
+1748008407951,26,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,697,157,1,1,https://saucedemo.com/?Username=error_user&Password=secret_sauce,26,0,0
+1748008407977,27,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,161,1,1,https://www.saucedemo.com/?Username=error_user&Password=secret_sauce,27,0,0
+1748008408006,74,Launch,200,OK,Thread Group 1-6,text,true,,3992,320,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,23,0,0
+1748008408006,23,Launch-0,301,Moved Permanently,Thread Group 1-6,text,true,,698,158,1,1,https://saucedemo.com/?Username=visual_user&Password=secret_sauce,23,0,0
+1748008408030,50,Launch-1,200,OK,Thread Group 1-6,text,true,,3294,162,1,1,https://www.saucedemo.com/?Username=visual_user&Password=secret_sauce,49,0,0
